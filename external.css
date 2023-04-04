@@ -52,6 +52,9 @@
 }
 
 /* ==========================circles======================== */
+
+/* =====big circles========= */
+
 .six {
   margin-top: 30px;
   margin-left: 270px;
@@ -74,6 +77,8 @@
   border-radius: 50%;
   position: absolute;
 }
+
+/* =======small circles============ */
 
 .eight {
   margin-top: 10px;
