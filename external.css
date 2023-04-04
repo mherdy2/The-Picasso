@@ -1,3 +1,4 @@
+/* ========================grid============================= */
 .container {
   margin: 150px;
   display: grid;
@@ -16,19 +17,18 @@
 .one {
   grid-area: one;
   width: 510px;
-  height: 150px;
+  /* height: 200px; */
 }
 
 .two {
   grid-area: two;
   width: 510px;
-  height: 150px;
+  /* height: 200px; */
 }
 
 .three {
   grid-area: three;
   width: 510px;
-  height: 150px;
 }
 .one,
 .two,
@@ -36,16 +36,103 @@
 .four,
 .five {
   background-color: aqua;
+  height: 230px;
 }
 
 .four {
   grid-area: four;
   width: 1570px;
-  height: 510px;
+  height: 450px;
 }
 
 .five {
   grid-area: five;
   width: 1570px;
   height: 20px;
+}
+
+/* ==========================circles======================== */
+.six {
+  margin-top: 30px;
+  margin-left: 270px;
+  background-color: rgb(255, 251, 0);
+}
+
+.seven {
+  margin-top: 180px;
+  margin-left: 430px;
+  background-color: rgb(255, 38, 0);
+}
+
+.six,
+.seven {
+  width: 70px;
+  height: 70px;
+  border: 30px solid #333;
+  border-width: 2px;
+  padding: 50px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.eight {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.nine {
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.ten {
+  margin-top: 50px;
+  margin-left: 600px;
+}
+
+.eight,
+.nine,
+.ten {
+  width: 2px;
+  height: 2px;
+  border: 30px solid #333;
+  border-width: 2px;
+  padding: 25px;
+  background-color: rgb(255, 38, 0);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.eleven {
+  background-color: rgb(255, 251, 0);
+  margin-top: 350px;
+  margin-left: 250px;
+  width: 2px;
+  height: 2px;
+  border: 30px solid #333;
+  border-width: 2px;
+  padding: 25px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+/* ==================triangles======================== */
+.tone {
+  width: 0px;
+  height: 0px;
+  border: 400px solid transparent;
+  border-bottom-color: green;
+  margin-right: 500px;
+  margin-top: 10 px;
+  position: absolute;
+}
+
+.ttwo {
+  width: 0px;
+  height: 0px;
+  border: 350px solid transparent;
+  border-bottom-color: greenyellow;
+  margin-left: 50%;
+  margin-top: 4%;
+  position: absolute;
 }
