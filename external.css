@@ -1,43 +1,51 @@
 .container {
+  margin: 150px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 1.9fr 1fr;
+  grid-template-rows: 0.2fr 4.6fr 0.9fr;
   gap: 20px 20px;
   grid-auto-flow: row;
   grid-template-areas:
     "one two three"
     "four four four"
     "five five five";
-  width: 800px;
-  height: 620px;
+  width: 1500px;
+  height: 720px;
 }
 
 .one {
   grid-area: one;
-  width: 260px;
+  width: 510px;
   height: 150px;
 }
 
 .two {
   grid-area: two;
-  width: 260px;
+  width: 510px;
   height: 150px;
 }
 
 .three {
   grid-area: three;
-  width: 260px;
+  width: 510px;
   height: 150px;
+}
+.one,
+.two,
+.three,
+.four,
+.five {
+  background-color: aqua;
 }
 
 .four {
   grid-area: four;
-  width: 820px;
-  height: 400px;
+  width: 1570px;
+  height: 510px;
 }
 
 .five {
   grid-area: five;
-  width: 820px;
-  height: 30px;
+  width: 1570px;
+  height: 20px;
 }
