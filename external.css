@@ -1,0 +1,43 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1.9fr 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "one two three"
+    "four four four"
+    "five five five";
+  width: 800px;
+  height: 620px;
+}
+
+.one {
+  grid-area: one;
+  width: 260px;
+  height: 150px;
+}
+
+.two {
+  grid-area: two;
+  width: 260px;
+  height: 150px;
+}
+
+.three {
+  grid-area: three;
+  width: 260px;
+  height: 150px;
+}
+
+.four {
+  grid-area: four;
+  width: 820px;
+  height: 400px;
+}
+
+.five {
+  grid-area: five;
+  width: 820px;
+  height: 30px;
+}
