@@ -16,7 +16,7 @@
 }
 
 .container {
-  margin: 5em 25em;
+  margin: 10%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 4.6fr 0.9fr;
