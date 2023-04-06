@@ -12,6 +12,7 @@
     "five five five";
   width: 1500px;
   height: 720px;
+  position: fixed;
 }
 
 .one {
@@ -23,12 +24,16 @@
 .two {
   grid-area: two;
   width: 510px;
-  /* height: 200px; */
 }
 
 .three {
   grid-area: three;
   width: 510px;
+}
+
+.two,
+.three {
+  margin-left: -47em;
 }
 .one,
 .two,
@@ -37,6 +42,7 @@
 .five {
   background-color: aqua;
   height: 230px;
+  position: relative;
 }
 
 .four {
@@ -75,7 +81,7 @@
   border-width: 2px;
   padding: 50px;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
 }
 
 /* =======small circles============ */
@@ -123,21 +129,76 @@
 
 /* ==================triangles======================== */
 .tone {
-  width: 0px;
-  height: 0px;
-  border: 400px solid transparent;
-  border-bottom-color: green;
-  margin-right: px;
-  margin-top: 10 px;
-  position: absolute;
+  width: 0;
+  height: 0;
+
+  border-left: 192px solid transparent;
+  border-right: 192px solid transparent;
+  border-bottom: 550px solid green;
+  margin-top: -610px;
+  z-index: 3;
+  position: relative;
+  margin-left: 55em;
 }
+/* width: 0px;
+  height: 0px;
+  border: 300px solid transparent;
+  border-bottom-color: green;
+
+}  clip-path: polygon(50% 0%, 21% 99%, 84% 100%); */
+
+/* position: absolute;
+  z-index: 1; */
 
 .ttwo {
-  width: 0px;
-  height: 0px;
-  border: 350px solid transparent;
-  border-bottom-color: greenyellow;
-  margin-left: 50%;
-  margin-top: 4%;
-  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 192px solid transparent;
+  border-right: 192px solid transparent;
+  border-bottom: 413px solid yellowgreen;
+  margin-top: -472px;
+  z-index: 3;
+  position: relative;
+  margin-left: -6em;
 }
+/* ============people============= */
+
+/* ============people============= */
+
+/* .people {
+  margin-left: 2%;
+  margin-right: 2%;
+
+  height: 5%;
+  z-index: 3;
+  background-color: rgb(93, 0, 255);
+
+  -webkit-clip-path: polygon(
+    0 69%,
+    0 82%,
+    39% 63%,
+    0 100%,
+    20% 100%,
+    50% 70%,
+    80% 100%,
+    100% 100%,
+    60% 61%,
+    100% 87%,
+    100% 74%,
+    37% 45%
+  );
+  clip-path: polygon(
+    0 69%,
+    0 82%,
+    39% 63%,
+    0 100%,
+    20% 100%,
+    50% 70%,
+    80% 100%,
+    100% 100%,
+    60% 61%,
+    100% 87%,
+    100% 74%,
+    37% 45%
+  );
+} */
