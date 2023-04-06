@@ -10,7 +10,56 @@
 
   <!-- ================= grid ======================= -->
   <body>
-    <section>
+    <section class="form">
+      <form action="formsubmitted.html" method="get">
+        <div class="formbox">Intersted in the Picasso Painting</div>
+        <div>
+          <label for="yes">YES</label>
+          <input
+            type="radio"
+            name="Intersted in the Picasso Painting"
+            id="yes"
+            value="yes"
+          />
+        </div>
+        <div>
+          <label for="no">NO</label>
+          <input
+            type="radio"
+            name="Intersted in the Picasso Painting"
+            id="no"
+            value="no"
+          />
+        </div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone" id="phone" />
+        </div>
+        <div>
+          <label for="age">Age:</label>
+          <input type="number" name="age" id="age" min="21" max="85" />
+        </div>
+        <div>
+          <label for="feedback">Feedback</label>
+          <textarea id="feedback" name="feedback"></textarea>
+        </div>
+        <div>
+          <button type="reset">Cancel</button>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- =============painting===================== -->
+
     <div class="container">
       <div class="one"></div>
       <div class="two"></div>
@@ -18,10 +67,12 @@
       <div class="four"></div>
       <div class="five"></div>
 
-  <div class="tone">t1</div>
-  <div class="ttwo">t1</div>
+      <!-- ==============triangles===================-->
 
-      <!--circles -->
+      <div class="tone">t1</div>
+      <div class="ttwo">t1</div>
+
+      <!--===============circles=======================-->
 
       <div class="six">6</div>
       <div class="seven">7</div>
@@ -29,21 +80,13 @@
       <div class="nine">9</div>
       <div class="ten">10</div>
       <div class="eleven">11</div>
-    
 
       <!-- ==================triangles====================== -->
-
-      <!-- ================triangle======================== -->
-
-        
-   
-   
-    
-     <div id=“people”>
-      <div class=“person”>
-      <div class =“head”></div>
-      <div class=“body”></div>
+      <div id="“people”">
+        <div class="“person”"></div>
+        <div class="“head”"></div>
+        <div class="“body”"></div>
+      </div>
     </div>
-    </section>
   </body>
 </html>
